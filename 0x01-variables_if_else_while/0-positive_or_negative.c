@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-/* main A program that print if the number is postive or negative*/
+/**
+* main - A program that print if the number is postive or negative
+* Return: 0 (success)
+*/
 int main(void)
 {
 	int n;
