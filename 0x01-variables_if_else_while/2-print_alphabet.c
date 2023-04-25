@@ -4,6 +4,7 @@
  * Description: prints the alphabet in lowercase
  * Return: 0 (success)
  */
+
 int main(void)
 {
 	int n = 97;
