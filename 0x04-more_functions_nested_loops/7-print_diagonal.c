@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *void print_diagonal -  draws a diagonal line on the terminal.
+ *print_diagonal -  draws a diagonal line on the terminal.
  *@n: is the number of times the character
  */
 void print_diagonal(int n)
