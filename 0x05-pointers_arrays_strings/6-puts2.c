@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *puts2 - function that prints every other character of a string
- *@str: input
- *Return: print
+ * puts2 - function should print only one character out of two
+ * starting with the first one
+ * @str: input
+ * Return: print
  */
 void puts2(char *str)
 {
@@ -18,11 +19,11 @@ y++;
 longi++;
 }
 t = longi - 1;
-for (o = 0; o <= t; o++)
+for (o = 0 ; o <= t ; o++)
 {
 if (o % 2 == 0)
 {
-putchar(str[0]);
+putchar(str[o]);
 }
 }
 putchar('\n');
