@@ -12,7 +12,8 @@ if (n < 0)
 {
 n1 = -n;
 putchar('-');
-} else
+}
+else
 {
 n1 = n;
 }
